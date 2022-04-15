@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import { ContactPhone, Mail } from "@mui/icons-material"
+import { ContactPhone, Mail, LinkedIn, GitHub } from "@mui/icons-material"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -14,6 +14,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="itemContainer">
                     <Mail className="icon" />
                     <span>CHaskin91@gmail.com</span>
+                </div>
+                <div className="itemContainer">
+                    <LinkedIn className="icon" />
+                    <span>LinkedIn</span>
+                </div>
+                <div className="itemContainer">
+                    <GitHub className="icon" />
+                    <span>GitHub</span>
                 </div>
             </div>
             

@@ -43,6 +43,26 @@ export const reactPortfolio = [
         title: "Photo Port",
         img: "/assets/photoPort.png",
     },
+    {
+        id: 3,
+        title: "Coming Soon...",
+        img: "/assets/stayTuned.jpg",
+    },
+    {
+        id: 4,
+        title: "Coming Soon...",
+        img: "/assets/stayTuned.jpg",
+    },
+    {
+        id: 5,
+        title: "Coming Soon...",
+        img: "/assets/stayTuned.jpg",
+    },
+    {
+        id: 6,
+        title: "Coming Soon...",
+        img: "/assets/stayTuned.jpg",
+    }
 ];
 
 export const allPortfolio = [

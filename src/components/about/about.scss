@@ -12,6 +12,10 @@
         position: absolute;
         cursor: pointer;
 
+        @include mobile {
+            display: none;
+        }
+
         &.left {
             left: 100px;
         }
@@ -34,6 +38,12 @@
         left: 0;
         transition: all 1s ease-out;
 
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+
         .container {
             width: 100vw;
             display: flex;
@@ -48,6 +58,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    width: 90%;
+                    height: 180px;
+                    margin: 15px 0;
+                }
 
                 .left {
                     flex: 4;
@@ -76,6 +92,10 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
+
+                        @include mobile {
+                            font-size: 20px;
+                        }
                     }
 
                     p {
@@ -83,6 +103,10 @@
                         color: $mainColor;
                         display: flex;
                         align-items: center;
+
+                        @include mobile {
+                            font-size: 15px;
+                        }
                     }
                 }
             }

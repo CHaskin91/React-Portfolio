@@ -9,19 +9,19 @@ export default function About() {
             icon: "./assets/personTrio.png",
             title: "About Me",
             desc: 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Hello Friends!  My name is Corbin Haskin, I am a Full-Stack Developer with a strong passion of working on React Apps.",
         },
         {
             id: "2",
             icon: "./assets/personTrio.png",
             title: "",
-            desc: "Hello_World",
+            desc: "In 2021, I got married!  Soon after the wedding, I made a decision to change careers and joined Rice University Coding Bootcamp!",
         },
         {
             id: "3",
             icon: "./assets/personTrio.png",
             title: "",
-            desc: "Hello_World333333",
+            desc: "When I'm not coding, I enjoy spending time outside with my wife, dog, and cat. We also watch way too much TV! (Big Survivor fans!)",
         },
     ]
 

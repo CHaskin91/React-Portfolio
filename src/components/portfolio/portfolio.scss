@@ -8,6 +8,7 @@
 
     h1 {
         font-size: 50px;
+        color: $mainColor;
     }
 
     ul {
@@ -25,8 +26,8 @@
         flex-wrap: wrap;
 
         .item {
-            width: 220px;
-            height: 150px;
+            width: 400px;
+            height: 300px;
             border-radius: 20px;
             border: 1px solid lightcyan;
             margin: 10px 20px;

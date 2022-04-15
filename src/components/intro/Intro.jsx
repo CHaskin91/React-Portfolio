@@ -10,7 +10,7 @@ const textRef = useRef();
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      strings: ["Developer", "Content Creator", "Applicant"],
     })
   }, [])
 

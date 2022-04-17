@@ -10,9 +10,9 @@ const textRef = useRef();
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Content Creator", "Applicant"],
-    })
-  }, [])
+      strings: ['Developer', 'Content Creator', 'Applicant'],
+    });
+  }, []);
 
   return (
     <div className="intro" id="intro">
@@ -26,7 +26,7 @@ const textRef = useRef();
           <h2>Hello! I am</h2>
           <h1>Corbin Haskin</h1>
           <h3>
-            Full-Stack <span ref={textRef}></span>
+            Full-Stack <span ref={textRef}> </span>
           </h3>
         </div>
         <a href="#portfolio">

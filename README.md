@@ -16,7 +16,7 @@ Clone the Repository. Run `npm install`. `npm start` will run the application on
 ## Links
 
 - [GitHub Repository](https://github.com/CHaskin91/react-portfolio)
-- [Live URL]()
+- [Live URL](https://chaskin91.github.io/react-portfolio/)
 
 ## Resources
 

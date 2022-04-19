@@ -2,7 +2,6 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Homework Tracker",
-        URL: "https://quiet-island-37482.herokuapp.com/login",
         img: "/assets/HWtracker.png",
     },
     {

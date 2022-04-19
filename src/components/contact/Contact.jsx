@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact"> 
       <div className="left">
-        <img src="assets/ISU.png" alt=""/>
+        <img src={process.env.PUBLIC_URL + "/assets/ISU.png"} alt=""/>
       </div>
       <div className="right">
         <h2>Contact Me</h2>

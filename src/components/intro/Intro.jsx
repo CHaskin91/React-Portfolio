@@ -18,7 +18,7 @@ const textRef = useRef();
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/me.png" alt=""/>
+          <img src={process.env.PUBLIC_URL + "/assets/me.png"} alt=""/>
         </div>
       </div>
       <div className="right">
@@ -30,7 +30,7 @@ const textRef = useRef();
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/downArrow2.png" alt=""/>
+          <img src={process.env.PUBLIC_URL + "/assets/downArrow2.png"} alt=""/>
         </a>
       </div>
     </div>

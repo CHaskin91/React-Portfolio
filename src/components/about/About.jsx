@@ -55,8 +55,8 @@ export default function About() {
             
         </div>
 
-        <img src={process.env.PUBLIC_URL + "assets/arrow.png"} className="arrow left" alt=""  onClick={()=>handleClick("left")}/>
-        <img src={process.env.PUBLIC_URL + "assets/arrow.png"} className="arrow right" alt="" onClick={()=>handleClick("right")} />
+        <img src={process.env.PUBLIC_URL + "/assets/arrow.png"} className="arrow left" alt=""  onClick={()=>handleClick("left")}/>
+        <img src={process.env.PUBLIC_URL + "/assets/arrow.png"} className="arrow right" alt="" onClick={()=>handleClick("right")} />
     </div>
   )
 }
